@@ -95,8 +95,13 @@ img {
   border-radius: 100%;
   border: 1px solid black;
   cursor: pointer;
+  transition: background-color 300ms ease-in-out;
+}
+
+.circle:hover {
+  background-color: grey;
 }
 
 .active-circle {
-  background-color: grey;
+  background-color: darkgray;
 }
